@@ -1,0 +1,7 @@
+name: devjobs_theme
+description: 'Theme for devjobs website'
+type: theme
+base theme: classy
+core_version_requirement: ^8 || ^9
+libraries:
+  - devjobs_theme/global-styling

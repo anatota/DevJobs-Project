@@ -1,0 +1,7 @@
+devjobs.main_page:
+  path: '/main'
+  defaults:
+    _controller: '\Drupal\devjobs_module\Controller\DevjobsController::main_page'
+    _title: 'Main Page'
+  requirements:
+    _permission: 'access content'

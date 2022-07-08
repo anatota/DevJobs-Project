@@ -1,0 +1,9 @@
+global-styling:
+  version: 1.x
+  js:
+    js/app.js: {}
+  css:
+    theme:
+      css/output.css: {}
+  images:
+    ./img/: {}

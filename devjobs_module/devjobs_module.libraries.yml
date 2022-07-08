@@ -1,0 +1,6 @@
+output:
+  version: 1.x
+  js:
+    js/search.js: {}
+  images:
+    /img/: {}

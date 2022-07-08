@@ -1,0 +1,14 @@
+<?php
+
+function devjobs_module_theme($existing, $type, $theme, $path) {
+    return [
+        'devjobs_module_theme_hook' => [
+            'render element' => 'children',
+            'template' => 'devjobs-module-theme-hook',
+            'path' => $path . '/templates',
+            'variables' => [
+                'jobs' => [],
+            ],
+        ],
+    ];
+}
